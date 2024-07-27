@@ -526,6 +526,48 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2024-07-28 00:00:00">2024年7月28日</time></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="_1"><a class="toclink" href="../../2024/07/28/%E5%85%B3%E4%BA%8E%E5%8F%8D%E5%87%BD%E6%95%B0%E5%AE%9A%E7%90%86%E4%B8%AD%E7%9A%84%E5%8E%8B%E7%BC%A9%E6%98%A0%E5%B0%84%E5%9C%A8%E5%B1%80%E9%83%A8%E6%98%AF%E5%8F%8C%E5%B0%84%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/"><strong>关于反函数定理中的压缩映射在局部是双射的一些想法</strong></a></h2>
+<p>定义 <span class="arithmatex">\(\psi(x):=x+A^{-1}\big(y-f(x)\big)\)</span> 则 <span class="arithmatex">\(\psi^{'}(x)=I-A^{-1}f^{'}(x)=A^{-1}\big(A-f^{'}(x)\big)\)</span></p>
+<div class="arithmatex">\[\parallel \psi^{'}(x) \parallel &lt; \frac{1}{2} \qquad x \in U \]</div>
+<p>那么 </p>
+<div class="arithmatex">\[\mid \psi(x_1) - \psi(x_2) \mid \leq \frac{1}{2}\mid x_1-x_2\mid \qquad x_1,x_2 \in U\]</div>
+<p>可以得到<span class="arithmatex">\(\psi\)</span>是压缩映射。<br />
+到这里书上就说<span class="arithmatex">\(f\)</span>在<span class="arithmatex">\(U\)</span>上面是一个双射，其中满射是由定义得到的，重点是单射<br />
+这里用到了压缩映射的一个推论，定义  <span class="arithmatex">\(h(x)=x+\psi(x)\)</span> 那么可以得到</p>
+<div class="arithmatex">\[(1-c)\mid x_1-x_2\mid \; \leq \, \mid h(x_1)-h(x_2) \mid\]</div>
+<p>这里容易证明<span class="arithmatex">\(h\)</span>是一个单射因为从<span class="arithmatex">\(h(x_1)-h(x_2)\)</span>可以得到</p>
+<div class="arithmatex">\[0=\mid h(x_1)-h(x_2) \mid \geq (1-c)\mid x_1 - x_2 \mid\]</div>
+<div class="arithmatex">\[x_1=x_2\]</div>
+<p>那么假设<span class="arithmatex">\(\psi(x_1)=\psi(x_2)\)</span>,则</p>
+<div class="arithmatex">\[\mid\psi(x_1)-\psi(x_2)\mid = \mid\big(h(x_1)-h(x_2)\big)-(x_1-x_2)\mid \geq \mid h(x_1)-h(x_2)\mid-\mid x_1-x_2\mid\]</div>
+<div class="arithmatex">\[\mid\psi(x_1)-\psi(x_2)\mid+\mid x_1-x_2\mid \geq \mid h(x_1)-h(x_2)\mid \geq (1-c)\mid x_1-x_2\mid\]</div>
+<div class="arithmatex">\[0=\mid\psi(x_1)-\psi(x_2)\mid \geq -c\mid x_1-x_2\mid\]</div>
+<p>可得<span class="arithmatex">\(x_1=x_2\)</span>,所以<span class="arithmatex">\(\psi\)</span>是一个单射，因此可得<span class="arithmatex">\(f\)</span>也是单射，所以<span class="arithmatex">\(f\)</span>是<span class="arithmatex">\(U\)</span>上的一个双射</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2024-07-18 00:00:00">2024年7月18日</time></li>
         
         

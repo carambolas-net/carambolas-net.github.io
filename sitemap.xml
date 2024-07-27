@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://blog.carambolas.net/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.carambolas.net/about/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.carambolas.net/blog/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://blog.carambolas.net/blog/2024/07/28/%E5%85%B3%E4%BA%8E%E5%8F%8D%E5%87%BD%E6%95%B0%E5%AE%9A%E7%90%86%E4%B8%AD%E7%9A%84%E5%8E%8B%E7%BC%A9%E6%98%A0%E5%B0%84%E5%9C%A8%E5%B1%80%E9%83%A8%E6%98%AF%E5%8F%8C%E5%B0%84%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</loc>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.carambolas.net/blog/2024/07/18/test/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.carambolas.net/meow/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.carambolas.net/blog/archive/2024/</loc>
-         <lastmod>2024-07-18</lastmod>
+         <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
