@@ -10,11 +10,11 @@
       
       
       
-        <link rel="canonical" href="https://blog.carambolas.net/blog/2024/07/18/test/">
+        <link rel="canonical" href="https://blog.carambolas.net/blog/2024/12/20/lp%CF%89%CF%83%CE%BC%E6%98%AFbanach%E7%A9%BA%E9%97%B4%E7%9A%84%E8%AF%81%E6%98%8E%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%87%E7%A8%8B/">
       
       
+        <link rel="prev" href="../../../07/28/%E5%85%B3%E4%BA%8E%E5%8F%8D%E5%87%BD%E6%95%B0%E5%AE%9A%E7%90%86%E4%B8%AD%E7%9A%84%E5%8E%8B%E7%BC%A9%E6%98%A0%E5%B0%84%E5%9C%A8%E5%B1%80%E9%83%A8%E6%98%AF%E5%8F%8C%E5%B0%84%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/">
       
-        <link rel="next" href="../../28/%E5%85%B3%E4%BA%8E%E5%8F%8D%E5%87%BD%E6%95%B0%E5%AE%9A%E7%90%86%E4%B8%AD%E7%9A%84%E5%8E%8B%E7%BC%A9%E6%98%A0%E5%B0%84%E5%9C%A8%E5%B1%80%E9%83%A8%E6%98%AF%E5%8F%8C%E5%B0%84%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/">
       
       
       <link rel="icon" href="../../../../../img/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>TEST - StarFruit</title>
+        <title>Lp(Ω,Σ,μ)是Banach空间的证明思路和过程 - StarFruit</title>
       
     
     
@@ -57,11 +57,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="TEST - StarFruit" >
+        <meta  property="og:title"  content="**Lp(Ω,Σ,μ)是Banach空间的证明思路和过程** - StarFruit" >
       
         <meta  property="og:description"  content="foobar" >
       
-        <meta  property="og:image"  content="https://blog.carambolas.net/assets/images/social/blog/posts/test.png" >
+        <meta  property="og:image"  content="https://blog.carambolas.net/assets/images/social/blog/posts/measure_space.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -69,15 +69,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://blog.carambolas.net/blog/2024/07/18/test/" >
+        <meta  property="og:url"  content="https://blog.carambolas.net/blog/2024/12/20/lp%CF%89%CF%83%CE%BC%E6%98%AFbanach%E7%A9%BA%E9%97%B4%E7%9A%84%E8%AF%81%E6%98%8E%E6%80%9D%E8%B7%AF%E5%92%8C%E8%BF%87%E7%A8%8B/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="TEST - StarFruit" >
+        <meta  name="twitter:title"  content="**Lp(Ω,Σ,μ)是Banach空间的证明思路和过程** - StarFruit" >
       
         <meta  name="twitter:description"  content="foobar" >
       
-        <meta  name="twitter:image"  content="https://blog.carambolas.net/assets/images/social/blog/posts/test.png" >
+        <meta  name="twitter:image"  content="https://blog.carambolas.net/assets/images/social/blog/posts/measure_space.png" >
       
     
     
@@ -100,7 +100,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#test" class="md-skip">
+        <a href="#lpbanach" class="md-skip">
           跳转至
         </a>
       
@@ -135,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TEST
+              Lp(Ω,Σ,μ)是Banach空间的证明思路和过程
             
           </span>
         </div>
@@ -502,19 +502,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#title1" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      title1
+      定义
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="title1">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      修改空间以满足范数定义
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      证明思路
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      证明
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="证明">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#title1-2" class="md-nav__link">
+  <a href="#g" class="md-nav__link">
     <span class="md-ellipsis">
-      title1-2
+      找到函数"g"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      逐点收敛
     </span>
   </a>
   
@@ -522,15 +558,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      标题2
-    </span>
-  </a>
   
 </li>
       
@@ -571,7 +598,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2024-07-18 00:00:00+00:00" class="md-ellipsis">2024年7月18日</time>
+                        <time datetime="2024-12-20 00:00:00+00:00" class="md-ellipsis">2024年12月20日</time>
                       </div>
                     </li>
                     
@@ -583,7 +610,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              需要 1 分钟阅读时间
+                              需要 4 分钟阅读时间
                             
                           </span>
                         </div>
@@ -603,15 +630,60 @@
         
 
 
-<h1 id="test">TEST</h1>
-<p>test</p>
-<!-- more -->
-<h2 id="title1">title1</h2>
-<p>测试</p>
-<h3 id="title1-2">title1-2</h3>
-<p>math test</p>
-<div class="arithmatex">\[\operatorname{ker} f=\{g\in G:f(g)=e_{H}\}\]</div>
-<h2 id="2">标题2</h2>
+<h1 id="lpbanach"><strong>Lp(Ω,Σ,μ)是Banach空间的证明思路和过程</strong></h1>
+<h2 id="_1"><strong>定义</strong></h2>
+<p>首先假设<span class="arithmatex">\(\left(\Omega,\Sigma,\mu \right)\)</span>是一个测度空间，其中<span class="arithmatex">\(\Omega\)</span>是一个全集，<span class="arithmatex">\(\Sigma\)</span>是<span class="arithmatex">\(\Omega\)</span>上的一个<span class="arithmatex">\(\sigma\text{-}algebra\)</span>，<span class="arithmatex">\(\mu\)</span>一个<span class="arithmatex">\(\Sigma\)</span>上的一个<span class="arithmatex">\(\sigma\text{-}additive\)</span><br />
+<span class="arithmatex">\(f\)</span>是<span class="arithmatex">\(\Omega\)</span>上的可测函数，定义范数：</p>
+<div class="arithmatex">\[\displaystyle \Vert f \Vert_p = 
+\left\{\begin{array}{l} \bigg[ \int_{\Omega}{\lvert f\rvert^p d\mu}\bigg]^{\tfrac{1}{p}} &amp; 1\leq p &lt; \infty \\ inf \left\{ M\geq0 \ | \ \lvert f\rvert\leq M(a.e) \right\}  &amp; p=\infty
+ \end{array}\right.\]</div>
+<h2 id="_2"><strong>修改空间以满足范数定义</strong></h2>
+<p><span class="arithmatex">\(\mathscr{L}^p\left(\Omega,\Sigma,\mu \right)\)</span>是可测函数组成的集合，并且满足<span class="arithmatex">\(\Vert f \Vert_p &lt; \infty\)</span><br />
+在目前定义的范数下，<span class="arithmatex">\(\mathscr{L}^p\left(\Omega,\Sigma,\mu \right)\)</span>不满足范数的第一条性质：<span class="arithmatex">\(\Vert f \Vert_p=0 \Leftrightarrow f=0\)</span><br />
+所以定义<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right) = \mathscr{L}^p\left(\Omega,\Sigma,\mu \right)-N\left(\Omega,\Sigma,\mu \right)\)</span>其中</p>
+<div class="arithmatex">\[N\left(\Omega,\Sigma,\mu \right) = \left\{ f \ | \  \Vert f \Vert_p = 0(a.e)\right\},\ \big( Ker\left( \Vert . \Vert_p(a.e)\right) \big)\]</div>
+<p>这样<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>就满足了线性空间和范数的定义</p>
+<h2 id="_3"><strong>证明思路</strong></h2>
+<p>Banach空间是范数完备的线性空间，所以接下来要证明<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>中的Cauchy序列收敛到<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>自身<br />
+现在假设<span class="arithmatex">\(\{f_n\}\)</span>是<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>中的Cauchy序列<br />
+首先<span class="arithmatex">\(lim_{n\to\infty}{f_n}\)</span>是可测函数，接下来需要证明<span class="arithmatex">\(\Vert lim_{n\to\infty}{f_n} \Vert_p &lt; \infty\)</span>，及</p>
+<div class="arithmatex">\[\int_{\Omega}{\lvert lim_{n\to\infty}{f_n} \rvert^p d\mu} &lt; \infty\]</div>
+<p>自然而然的想到了Lebesgue Dominated Convergence定理好让</p>
+<div class="arithmatex">\[\int_{\Omega}{\lvert lim_{n\to\infty}{f_n} \rvert^p d\mu} = lim_{n\to\infty} \int_{\Omega}{\lvert {f_n} \rvert^p d\mu} &lt; \infty\]</div>
+<p>如果能同时找到<span class="arithmatex">\(g \in L^p\left(\Omega,\Sigma,\mu \right)\)</span>使得<span class="arithmatex">\(\lvert f_n \rvert &lt; g\)</span>就可以让</p>
+<div class="arithmatex">\[lim_{n\to\infty} \int_{\Omega}{\lvert {f_n} \rvert^p d\mu} &lt; \int_{\Omega}{\lvert g \rvert^p}d\mu &lt; \infty\]</div>
+<p>注意<span class="arithmatex">\(g \in L^p\left(\Omega,\Sigma,\mu \right)\)</span>隐含了<span class="arithmatex">\(\Vert g \Vert_p &lt; \infty \Leftrightarrow \bigg[ \int_{\Omega}{\lvert f\rvert^p d\mu}\bigg]^{\tfrac{1}{p}} &lt; \infty \Rightarrow g &lt; \infty\)</span>
+这样顺便也为Lebesgue Dominated Convergence找到了控制函数“<span class="arithmatex">\(g\)</span>”<br />
+由于一个Cauchy序列收敛当且仅当Cauchy的子序列收敛  </p>
+<p>所以现在的目标是找到<span class="arithmatex">\(\{f_{n_{k}}\}\)</span>对应的上述函数<span class="arithmatex">\(g\)</span>和证明<span class="arithmatex">\(\{f_{n_{k}}\}\)</span>是逐点收敛的（Lebesgue Dominated Convergence的条件）</p>
+<h2 id="_4"><strong>证明</strong></h2>
+<h3 id="g"><strong>找到函数"g"</strong></h3>
+<p><span class="arithmatex">\(\{f_{n_{k}}\}\)</span>是<span class="arithmatex">\(\{f_{n}\}\)</span>的一个子序列，并且满足<span class="arithmatex">\(\Vert f_{n_{k+1}}-f_{n_{k}} \Vert_p &lt; {\tfrac{1}{2^k}}\)</span><br />
+定义<span class="arithmatex">\(h_m=\sum_{k=1}^m{\lvert f_{n_{k+1}}-f_{n_{k}}\rvert}\)</span>和<span class="arithmatex">\(h=\sum_{k=1}^{\infty}{\lvert f_{n_{k+1}}-f_{n_{k}}\rvert}\)</span>  </p>
+<div class="arithmatex">\[\lvert f_{n_{m}}\rvert = \lvert \sum_{k=1}^m{ f_{n_{k+1}}-f_{n_{k}}} + f_{n_{1}} \rvert \leq h_{m-1} + \lvert f_{n_{1}}\rvert \leq h + \lvert f_{n_{1}}\rvert\]</div>
+<p>这样函数<span class="arithmatex">\(g:=h+ \lvert f_{n_{1}}\rvert\)</span>就被构造出来了,但是在此之前要让<span class="arithmatex">\(\Vert h \Vert_p &lt; \infty\)</span>这样就可以让<span class="arithmatex">\(\Vert g \Vert_p &lt; \infty\)</span>及<span class="arithmatex">\(g \in L^p\left(\Omega,\Sigma,\mu \right)\)</span>  </p>
+<div class="arithmatex">\[\Vert h \Vert_p^p=\int_\Omega\lvert \sum_{k=1}^{\infty}\lvert f_{n_{k+1}}-f_{n_{k}}\rvert \rvert^pd\mu\]</div>
+<div class="arithmatex">\[\{h_m\}是单调递增的，所以可以把极限提出来\]</div>
+<div class="arithmatex">\[=lim_{m\to\infty}\int_\Omega\lvert \sum_{k=1}^{m}\lvert f_{n_{k+1}}-f_{n_{k}}\rvert \rvert^pd\mu\]</div>
+<div class="arithmatex">\[=lim_{m\to\infty}\Vert \sum_{k=1}^{m}\lvert f_{n_{k+1}}-f_{n_{k}}\rvert \Vert_p^p\]</div>
+<div class="arithmatex">\[范数的三角不等式\]</div>
+<div class="arithmatex">\[\leq lim_{m\to\infty}(\sum_{k=1}^m\Vert f_{n_{k+1}}-f_{n_{k}} \Vert_p)^p\]</div>
+<div class="arithmatex">\[&lt; (lim_{m\to\infty}\sum_{k=1}^m \tfrac{1}{2^k})^p  = 1 &lt; \infty\]</div>
+<h3 id="_5"><strong>逐点收敛</strong></h3>
+<p>接下来要证明<span class="arithmatex">\(\{f_{n_{k}}\}\)</span>是逐点收敛的<br />
+<span class="arithmatex">\(\forall \omega \in \Omega\)</span>  </p>
+<div class="arithmatex">\[\lvert lim_{k\to\infty}f_{n_{k}}(\omega)-f_{n_{m}}(\omega) \rvert = \lvert (g(\omega) + f_{n_{1}}(\omega))-(g_{m-1}(\omega) + f_{n_{1}}(\omega))\rvert = \sum_{k=m}^{\infty}\lvert f_{n_{k+1}}(\omega)-f_{n_{k}}(\omega) \rvert &lt; g(\omega)&lt;\infty\]</div>
+<p>因为<span class="arithmatex">\(g(\omega)\)</span>是有限的，所以<span class="arithmatex">\(\forall \epsilon&gt;0\)</span>都<span class="arithmatex">\(\exists m &gt; 0\)</span>使得<span class="arithmatex">\(\sum_{k=m}^{\infty}\lvert f_{n_{k+1}}(\omega)-f_{n_{k}}(\omega) \rvert &lt; \epsilon\)</span></p>
+<p>所以<span class="arithmatex">\(\{f_{n_{k}}\}\)</span>逐点收敛到<span class="arithmatex">\(lim_{k\to\infty}f_{n_{k}}\)</span></p>
+<p>综合以上：<br />
+1.<span class="arithmatex">\(lim_{k\to\infty}{f_{n_{k}}}\)</span>是一个<span class="arithmatex">\(\Omega\)</span>上的可测函数<br />
+2.存在一个函数<span class="arithmatex">\(g \in L^p\left(\Omega,\Sigma,\mu \right)\)</span>使得<span class="arithmatex">\({\lvert f_{n_{k}}}\rvert&lt;g&lt;\infty\)</span>，并且<span class="arithmatex">\(\Vert g \Vert_p &lt; \infty\)</span> <br />
+3.<span class="arithmatex">\(\{f_{n_{k}}\}\)</span>逐点收敛到<span class="arithmatex">\(lim_{k\to\infty}f_{n_{k}}\)</span>  </p>
+<p>运用Lebesgue Dominated Convergence定理可得：  </p>
+<div class="arithmatex">\[\Vert lim_{k\to\infty}{f_{n_{k}}} \Vert_p = \bigg[ \int_{\Omega}{\lvert lim_{k\to\infty}{f_{n_{k}}} \rvert^p d\mu} \bigg]^{\tfrac{1}{p}} = lim_{k\to\infty}  \bigg[ \int_{\Omega}{\lvert {f_{n_{k}}} \rvert^p d\mu} \bigg]^{\tfrac{1}{p}} &lt; \bigg[ \int_{\Omega}{\lvert {g} \rvert^p d\mu} \bigg]^{\tfrac{1}{p}} = \Vert g \Vert_p &lt; \infty\]</div>
+<p>最终<span class="arithmatex">\(lim_{k\to\infty}{f_{n_{k}}}\)</span>是一个<span class="arithmatex">\(\Omega\)</span>上的可测函数并且<span class="arithmatex">\(\Vert lim_{k\to\infty}{f_{n_{k}}} \Vert_p &lt; \infty\)</span>由<span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>的定义可知<span class="arithmatex">\(lim_{k\to\infty}{f_{n_{k}}} \in L^p\left(\Omega,\Sigma,\mu \right)\)</span>及<span class="arithmatex">\({f_{n_{k}}}\)</span>收敛  </p>
+<p>由于一个Cauchy序列收敛当且仅当这个Cauchy子序列收敛，所以<span class="arithmatex">\(\{f_{n}\}\)</span>收敛，得：
+<center><span class="arithmatex">\(L^p\left(\Omega,\Sigma,\mu \right)\)</span>是一个Banach空间</center></p>
 
 
 
